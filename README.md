@@ -1,8 +1,9 @@
 # Cracker Barrel Peg Game
-Quick little Python program to backtrack solve the Cracker Barrel peg game for an arbitrary sized peg.
+Quick little Python program to backtrack and solve the Cracker Barrel peg game for an arbitrarily sized peg board.
+Might come back and completely refactor it to be a full package with other geometries.
 There are a lot of ways this project could go, but I am just going to leave it as is for now.
 Minimal error checking on the arguments parser as this was mostly modeling the game for fun.
-Simple enough to run it, for example:
+Simple enough to run the program, for example:
 
 ```bash
 python peg_game.py 5
