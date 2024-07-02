@@ -69,7 +69,7 @@ class Board:
         if self.board[row][col] == 0:
             return []
 
-        # theoretically 8 ways to move from any point
+        # theoretically 6 ways to move from any point
         # lots of filters...
 
         # they all start at (row, col) so this is just the list of terminal points
